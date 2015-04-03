@@ -32,15 +32,6 @@ class IActivity(form.Schema, IImageScaleTraversable):
     NGO Activity
     """
 
-    dexteritytextindexer.searchable('title')
-    title = schema.TextLine(title=u'Title',
-                            description=u'Title of Campaign.')
-
-    dexteritytextindexer.searchable('description')
-    description = schema.Text(title=u'Description',
-                              description=u'Brief description '
-                              'or summary of campaign.')
-
     dexteritytextindexer.searchable('body')
     body = RichText(title=u'Details of Activity')
 
