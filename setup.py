@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 version = '0.1'
-≡jedi=0, ≡     (**attrs) ≡jedi≡
+
 setup(name='sinarngo.activity',
       version=version,
       description="NGO Activity Content Type for Plone",
